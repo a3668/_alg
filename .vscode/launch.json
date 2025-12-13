@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/kai/Desktop/_alg/hw7/bfs_test",
+      "program": "/Users/kai/Desktop/_alg/hw7/bfs_test/build/Debug/outDebug"
+    }
+  ]
+}
