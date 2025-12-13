@@ -2,8 +2,6 @@
 
 [itertools 聊天連結](https://chatgpt.com/share/68da48d6-3168-8006-ab4e-7b2607989eaa)
 
-這張圖其實就是把 **`itertools` 四種常見組合工具**放在一起比較。它們的差異主要在於 **是否考慮順序**、**是否允許重複**：
-
 ---
 
 # 1 Truth_combinations.py
@@ -63,14 +61,9 @@ combo =
 
 ### 總結對照表
 
-| 函數                            | 是否考慮順序 | 是否允許重複 | 數量公式    |
-| ------------------------------- | ------------ | ------------ | ----------- |
-| `product`                       | ✅ 有        | ✅ 有        | nʳ          |
-| `permutations`                  | ✅ 有        | ❌ 無        | nPr         |
-| `combinations`                  | ❌ 無        | ❌ 無        | nCr         |
-| `combinations_with_replacement` | ❌ 無        | ✅ 有        | C(n+r-1, r) |
+## ![對照表](/pic/hw4/對照表.png)
 
----
+這張表其實就是把 **`itertools` 四種常見組合工具**放在一起比較。它們的差異主要在於 **是否考慮順序**、**是否允許重複**：
 
 combinations 是「選哪幾個位置放 1」
 product 是「每個位置都自己決定要 0 還是 1」
