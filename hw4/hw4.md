@@ -1,8 +1,6 @@
-https://docs.python.org/3/library/itertools.html
+[python 工具](https://docs.python.org/3/library/itertools.html)
 
-itertools 聊天連結 https://chatgpt.com/share/68da48d6-3168-8006-ab4e-7b2607989eaa
-
-暴力法 https://chatgpt.com/share/68da496b-7194-8006-b646-8a7862467b4e
+[itertools 聊天連結](https://chatgpt.com/share/68da48d6-3168-8006-ab4e-7b2607989eaa)
 
 這張圖其實就是把 **`itertools` 四種常見組合工具**放在一起比較。它們的差異主要在於 **是否考慮順序**、**是否允許重複**：
 
