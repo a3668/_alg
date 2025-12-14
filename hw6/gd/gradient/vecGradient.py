@@ -21,6 +21,6 @@ def grad(f, p):
 
 [x,y] = [1,3]
 print('x=', x, 'y=', y)
-print('df(f(x,y), 0) = ', df(f, [x, y], 0))
+print('df(f(x,y), 0) = ', df(f, [x, y], 0))#f 對 x 的偏微分的數值近似值，斜率
 print('df(f(x,y), 1) = ', df(f, [x, y], 1))
 print('grad(f)=', grad(f, [x,y]))

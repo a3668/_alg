@@ -70,12 +70,12 @@ print(f"Entropy(p)        : {entropy(p):.5f}")
 # 檢查誤差 (容許一點點浮點數誤差)
 diff_q = sum([abs(p[i] - q[i]) for i in range(len(p))])
 if diff_q < 1e-3:
-    print("\n✅ 驗證成功：Q 收斂至 P")
+    print("\n 驗證成功：Q 收斂至 P")
 else:
-    print("\n❌ 驗證失敗：Q 未收斂至 P")
+    print("\n 驗證失敗：Q 未收斂至 P")
 
 diff_ce = abs(cross_entropy(p, q) - entropy(p))
 if diff_ce < 1e-4:
-    print("✅ 驗證成功：Cross Entropy 達到最小值 (等於 Entropy)")
+    print(" 驗證成功：Cross Entropy 達到最小值 (等於 Entropy)")
 else:
-    print("❌ 驗證失敗：Cross Entropy 未達最小值")
+    print(" 驗證失敗：Cross Entropy 未達最小值")
