@@ -9,6 +9,7 @@ y = np.array([1.9, 3.1, 3.9, 5.0, 6.2], dtype=np.float32)
 
 def predict(a, xt):
 	return a[0]+a[1]*xt
+# 
 
 def MSE(a, x, y):
 	total = 0
@@ -23,7 +24,7 @@ p = [0.0, 0.0]
 # 2. 呼叫 hillClimbing
 # h 是步伐大小(隨機範圍)，類似 learning rate。
 # 爬山法通常需要多一點嘗試次數，或者 h 要設對。
-plearn = hc.hillClimbing(loss, p, h=0.01) 
+plearn = hc.hillClimbing(loss, p, h=0.01) #起點p 0,0
 
 print('Final parameters:', plearn)
 

@@ -26,6 +26,13 @@
 
 - 定義資料 x,y、模型 predict(a,x)、損失 MSE(a,x,y)，把 loss(p) 丟進 hc.hillClimbing() 去找最佳參數 a=[b,w]，最後畫出原始點與擬合直線。
 
+- def predict(a, xt)
+  功能：用目前的參數 a，對單一 x 值算出預測的 y 值
+- def MSE(a, x, y)
+  功能：
+
+[MSE](https://zh.wikipedia.org/zh-tw/均方误差)
+
 ---
 
 ### 梯度
@@ -103,3 +110,29 @@ glen < 1e-5 停止
 
 - 定義資料 x, y、線性模型 predict(a, x) 與損失函數 MSE(a, x, y)，並將 loss(p) 傳入 hw6_greedy.gradientDescendent_exp()，使用指數衰減學習率的梯度下降尋找最佳參數。
 - 訓練完成後，用學到的參數計算預測值 y_predicted，並用 matplotlib 畫出原始資料點與回歸直線，用來觀察擬合結果。
+
+---
+
+### 改良法
+
+使用 adam 從[hw6_gd.py](/hw6/gd/hw6_gd.py)改良
+
+- Adam = Momentum + RMSProp + Bias Correction
+  核心改良點
+
+1. Momentum - 慣性方向：
+
+- 原理： 紀錄過去梯度的加權平均方向。
+- 目的： 減少搜尋過程中的震盪，並在坡度平緩處加速前進，有助於通過鞍點，並提升在複雜地形中的收斂穩定性。
+
+2. RMSProp - 自適應步長 ：
+
+- 原理： 根據梯度平方的移動平均，自動縮放每個參數的學習率。
+- 目的： 對於坡度劇烈的參數自動「縮小步長」防止暴衝；對於坡度平緩的參數自動「放大步長」加速收斂。
+
+3. Bias Correction - 偏差修正：
+
+- 原理：由於一階與二階動量在初始時刻為零，前幾步的估計會產生偏小的現象，因此 Adam 透過偏差修正使動量估計更接近真實值。
+- 目的：提升訓練初期的更新準確度與穩定性。
+
+[adam 參考](https://arxiv.org/pdf/1412.6980)
