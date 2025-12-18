@@ -29,7 +29,7 @@
 - def predict(a, xt)
   功能：用目前的參數 a，對單一 x 值算出預測的 y 值
 - def MSE(a, x, y)
-  功能：
+  功能：用同一組參數 a，對全部 x,y 算總誤差
 
 [MSE](https://zh.wikipedia.org/zh-tw/均方误差)
 
@@ -42,6 +42,11 @@
 - 提供數值微分（central difference）、梯度計算 grad() 與梯度下降主流程 gradientDescendent()
 
 ##### [hw6_gdRegression.py](/hw6/gd/hw6_gdRegression.py) : 作為線性回歸的應用端
+
+- def predict(a, xt)
+  功能：用目前的參數 a，對單一 x 值算出預測的 y 值
+- def MSE(a, x, y)
+  功能：用同一組參數 a，對全部 x,y 算總誤差
 
 - 定義資料 x,y、模型 predict(a, x)、損失函數 MSE(a, x, y)，再把 loss(p) 丟給 hw6_gd.gradientDescendent() 去最小化，最後用 matplotlib 畫出資料點與擬合直線。
 
@@ -75,6 +80,13 @@ p += gstep
 在[hw6_gd.py](/hw6/gd/hw6_gd.py)基礎上加入「學習率的階段式收斂策略（指數衰減）」，使前期更新較大、後期更新較小。
 
 ##### [hw6_greedy.py](/hw6/greedy/hw6_greedy.py) : 通用梯度下降加指數衰減優化器模組
+
+- def predict(a, xt)
+  功能：用目前的參數 a，對單一 x 值算出預測的 y 值
+- def MSE(a, x, y)
+  功能：用同一組參數 a，對全部 x,y 算總誤差
+
+[MSE](https://zh.wikipedia.org/zh-tw/均方误差)
 
 - [指數衰減](https://zh.wikipedia.org/zh-tw/指数衰减)
   學習率初始為 0.1
@@ -116,6 +128,19 @@ glen < 1e-5 停止
 ### 改良法
 
 使用 adam 從[hw6_gd.py](/hw6/gd/hw6_gd.py)改良
+
+##### [hw6_improve.py](/hw6/improve/hw6_improve.py) : Adam 梯度下降優化器模組
+
+-
+
+##### [improve.py](/hw6/improve/improve.py) : 使用 Adam 的線性回歸應用端
+
+- def predict(a, xt)
+  功能：用目前的參數 a，對單一 x 值算出預測的 y 值
+- def MSE(a, x, y)
+  功能：用同一組參數 a，對全部 x,y 算總誤差
+
+[MSE](https://zh.wikipedia.org/zh-tw/均方误差)
 
 - Adam = Momentum + RMSProp + Bias Correction
   核心改良點
