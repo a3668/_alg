@@ -10,4 +10,6 @@
 | **重複利用**     | 可以持續用同一張表快取（只要程式未結束）     | 每次呼叫通常會重建表                        |
 | **適合場合**     | 查少量 C(n, k) 或學習遞迴時                  | 一次要算大量 C(n, k) 或整張 Pascal 三角形時 |
 
-https://chatgpt.com/share/690477db-2cc8-8006-8375-ac0ad2a003bf
+\[C_k^n = \binom{n}{k} = \frac{P_k^n}{k!} = \frac{n!}{k!(n-k)!}\]
+
+[對話紀錄](https://chatgpt.com/share/690477db-2cc8-8006-8375-ac0ad2a003bf)

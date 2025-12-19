@@ -57,4 +57,9 @@
 
 ###### 使用 chatgpt 作為輔助工具參與討論與驗證解題思路
 
+[hw7_bfs.py](/hw7/ship/hw7_bfs.py)
 [hw7 講解](/hw7/hw7.md)
+
+---
+
+11k
