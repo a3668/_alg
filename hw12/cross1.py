@@ -39,7 +39,7 @@ for k in range(iterations):
     for i in range(len(q)):
         grad.append(-p[i] / q[i])
     
-    # B. 更新 Q 值 (使用乘法/指數更新)
+    # B. 更新 q 值 (使用乘法/指數更新)
     # 核心公式: q_new = q_old * exp(-learning_rate * gradient)
     # 這是資訊幾何中讓機率分佈移動的正確方式
     new_q_unnormalized = []

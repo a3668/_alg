@@ -3,7 +3,7 @@ import random
 def f(x, y):
     return x**2 + 2*y**2
 
-def mcInt_expectation(f, rx, ry, n=100000):
+def mcInt(f, rx, ry, n=100000):
     total = 0.0
     for _ in range(n):
         x = random.uniform(rx[0], rx[1])
@@ -15,4 +15,4 @@ def mcInt_expectation(f, rx, ry, n=100000):
     return area * (total / n)
     # total/n 就是這些高度的平均
 
-print(mcInt_expectation(f, [0,1], [0,1]))
+print(mcInt(f, [0,1], [0,1]))
