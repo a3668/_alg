@@ -59,5 +59,5 @@ cell_volume = step \*\* len(axes)
 
 product(\*axes)展開多維座標
 f(\*point)得到該 point 在函數上的值
-最後 total 把所有小區塊的積分加起來
+最後 total 把所有小區塊的積分加起來  
 [對話](https://chatgpt.com/share/695391b8-0c30-8006-9321-d5d7b2e35500)
