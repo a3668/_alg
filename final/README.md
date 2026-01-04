@@ -123,4 +123,6 @@
 
 ## 期中
 
+###### 使用 chatgpt 作為輔助工具參與討論  
+
 [專案位置](https://github.com/a3668/blockchain_mid_v2)
