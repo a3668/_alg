@@ -1,5 +1,5 @@
 <!-- ![mc](/pic/hw10/mc.png) -->
-# 用黎曼幾分 (n 維)  
+# 用蒙地卡羅積分   
 ## [mc_n.py](/hw10/10.2/mc_n.py)  
 [對話](https://chatgpt.com/share/69528989-5010-8006-8271-16fec0ce4574)  
 [蒙地卡羅](https://zh.wikipedia.org/zh-tw/蒙地卡羅積分)  
@@ -24,8 +24,9 @@
 - average = total / n
   積分區域的平均高度估計
 
----
-# 用蒙地卡羅積分  
+---  
+
+# 用黎曼幾分 (n 維) 
 ## [rm_n.py](/hw10/10.1/rm_n.py)
 
 - def rm_n_loop(f, ranges, step)
