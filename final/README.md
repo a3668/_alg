@@ -123,4 +123,4 @@
 
 ## 期中
 
-[專案位置]()
+[專案位置](https://github.com/a3668/blockchain_mid_v2)
