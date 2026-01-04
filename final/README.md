@@ -59,8 +59,8 @@
 
 ###### 使用 chatgpt 作為輔助工具參與討論與驗證解題思路
 
-[hw7_bfs.py](/hw7/ship/hw7_bfs.py)
-[hw7 講解](/hw7/hw7.md)
+[hw7_bfs.py](/hw7/ship/hw7_bfs.py)  
+[hw7 講解](/hw7/hw7.md)  
 
 ---
 
@@ -70,9 +70,9 @@
 
 ###### 使用 chatgpt 作為輔助工具參與討論與驗證解題思路
 
-[查表代碼](/hw8/查表/CnkRLookup.py)
-[動態規劃代碼](/hw8/動態規劃/CnkDynamic.py)
-[hw8 講解](/hw8/README.md)
+[查表代碼](/hw8/查表/CnkRLookup.py)  
+[動態規劃代碼](/hw8/動態規劃/CnkDynamic.py)  
+[hw8 講解](/hw8/README.md)  
 
 ---
 
@@ -82,9 +82,9 @@
 
 ###### 使用 chatgpt 作為輔助工具參與討論與驗證解題思路
 
-[hw9.py](/hw9/hw9.py)
-[hw9 結果](/hw9/hw9.md)
-[hw9 問](https://chatgpt.com/share/694923be-3e48-8006-8203-ebe95ee01702)
+[hw9.py](/hw9/hw9.py)  
+[hw9 結果](/hw9/hw9.md)  
+[hw9 問](https://chatgpt.com/share/694923be-3e48-8006-8203-ebe95ee01702)  
 
 ---
 
@@ -94,9 +94,9 @@
 
 ###### 使用 chatgpt 作為輔助工具參與討論與驗證解題思路
 
-[黎曼代碼](/hw10/10.1/rm_n.py)
-[蒙地卡羅代碼](/hw10/10.2/mc_n.py)
-[講解](/hw10/README.md)
+[黎曼代碼](/hw10/10.1/rm_n.py)  
+[蒙地卡羅代碼](/hw10/10.2/mc_n.py)  
+[講解](/hw10/README.md)  
 
 ---
 
@@ -106,7 +106,7 @@
 
 ###### 使用 chatgpt 作為輔助工具參與討論
 
-[對話網址](https://chatgpt.com/share/695a6d36-4328-8006-b260-4dbceb730e08)
+[對話網址](https://chatgpt.com/share/695a6d36-4328-8006-b260-4dbceb730e08)  
 
 ---
 
@@ -116,8 +116,8 @@
 
 ###### 使用 chatgpt 作為輔助工具參與討論與驗證解題思路
 
-[代碼](/hw12/cross1.py)
-[講解](/hw12/README.md)
+[代碼](/hw12/cross1.py)  
+[講解](/hw12/README.md)  
 
 ---
 
