@@ -1,8 +1,8 @@
 <!-- ![mc](/pic/hw10/mc.png) -->
-
-[mc_n.py](/hw10/10.2/mc_n.py)
-[對話](https://chatgpt.com/share/69528989-5010-8006-8271-16fec0ce4574)
-[蒙地卡羅](https://zh.wikipedia.org/zh-tw/蒙地卡羅積分)
+# 用黎曼幾分 (n 維)  
+## [mc_n.py](/hw10/10.2/mc_n.py)  
+[對話](https://chatgpt.com/share/69528989-5010-8006-8271-16fec0ce4574)  
+[蒙地卡羅](https://zh.wikipedia.org/zh-tw/蒙地卡羅積分)  
 
 ### def mcInt_nD(f, bounds, n=100000)
 
@@ -25,8 +25,8 @@
   積分區域的平均高度估計
 
 ---
-
-[rm_n.py](/hw10/10.1/rm_n.py)
+# 用蒙地卡羅積分  
+## [rm_n.py](/hw10/10.1/rm_n.py)
 
 - def rm_n_loop(f, ranges, step)
   函數 f 在指定 n 維區間上的積分近似值
