@@ -77,7 +77,3 @@ if solution_states:
         print(''.join(map(str, state)))
 else:
     print("No solution found.")
-
-
-
-
